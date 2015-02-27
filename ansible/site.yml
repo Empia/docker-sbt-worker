@@ -1,0 +1,6 @@
+- hosts: localhost
+  roles:
+    - role: ANXS.oracle-jdk
+      oracle_jdk_java_versions: [8]
+      oracle_jdk_java_version_default: 8
+    - role: JasonGiedymin.sbt
