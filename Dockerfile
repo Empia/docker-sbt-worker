@@ -1,4 +1,4 @@
-FROM ansible/ubuntu15.04-ansible:stable
+FROM prettynatty/ansible
 
 # Add playbooks to the Docker image
 ADD ansible /srv/ansible
