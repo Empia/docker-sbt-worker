@@ -7,3 +7,4 @@
   tasks:
     - user: name=ubuntu uid=1000
     - apt: name=protobuf-compiler update_cache=yes
+    - user: name=ubuntu uid=1000 gid=1000
